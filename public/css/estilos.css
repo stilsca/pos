@@ -1,0 +1,148 @@
+
+.btn-operacion {
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.bg-anulado {
+    background-color: rgba(255, 0, 0, 0.5) !important;
+}
+
+.bg-inactivo {
+    background-color: rgba(218, 166, 70, 0.5) !important;
+}
+
+.m-0 {
+    margin: 0 0 0 0 !important;
+}
+
+th.dt-right,
+td.dt-right {
+    text-align: right;
+}
+
+th.dt-center,
+td.dt-center {
+    text-align: center;
+}
+
+.btn-operaciones {
+    padding: 7px;
+    border-radius: 2px;
+    margin: 0;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+}
+
+.resaltado {
+    cursor: pointer;
+}
+
+.resaltado:hover {
+    color: #cc0000;
+}
+
+.listadoPrecio td input {
+    text-align: right;
+}
+
+.low {
+    color: red;
+}
+
+/* CALCULADORA */
+
+@font-face {
+    font-family: "Digital7";
+    src: url('../font/digital-7.ttf');
+}
+
+.calculadora input {
+    height: 100%;
+    text-align: right;
+    font-family: 'Digital7', 'Courier New', Courier, monospace;
+    font-size: 6vh;
+}
+
+.calculadora .row {
+    margin-top: 10px;
+}
+
+.calculadora button {
+
+    width: 100%;
+    height: 100%;
+}
+
+.btnCal {
+    box-shadow: inset 0px 1px 0px 0px #bee2f9;
+    background: linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+    background-color: #63b8ee;
+    border-radius: 6px;
+    border: 1px solid #3866a3;
+    display: inline-block;
+    cursor: pointer;
+    color: #14396a;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #7cacde;
+}
+
+.btnOperCal {
+    box-shadow: inset 0px 1px 0px 0px #f3f9be;
+    background: linear-gradient(to bottom, #eeb263 5%, #cf9846 100%);
+    background-color: #eec263;
+    border-radius: 6px;
+    border: 1px solid #a39338;
+    display: inline-block;
+    cursor: pointer;
+    color: #6a5a14;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #decc7c;
+}
+
+.btnOperCalCalAsig {
+    box-shadow: inset 0px 1px 0px 0px #c5f9be;
+    background: linear-gradient(to bottom, #68ee63 5%, #4bcf46 100%);
+    background-color: #7fee63;
+    border-radius: 6px;
+    border: 1px solid #38a34a;
+    display: inline-block;
+    cursor: pointer;
+    color: #146a20;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #88de7c;
+}
+
+/*  MESAS   */
+.mesa{
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.libre{
+    background-color: #00aa00;
+    color: #fff;
+}
+.ocupado{
+    background-color: #d37b07;
+    color: #fff;
+}
+.comanda-enviada{
+    background-color: #60df60a6;
+}
